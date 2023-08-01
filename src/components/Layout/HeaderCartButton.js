@@ -7,7 +7,7 @@ import CartContext from '../../store/create-context'
 const HeaderCartButton=(props)=>{
 
   const cartCtx=useContext(CartContext)
-
+  console.log("check 1")
   const numberOfCartItem=cartCtx.items.reduce((cartNumber,item)=>{
 
     return cartNumber + item.amount

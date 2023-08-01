@@ -6,7 +6,7 @@ import { useContext } from 'react'
 
 const MealItem=(props)=>{
 const cartCtx=useContext(CartContext)
-
+console.log("check")
 const price=`$${props.price.toFixed(2)}`
 const addToCartHandler=(amount)=>{
 
